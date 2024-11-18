@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-xxhdpi_tfl2_logo.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-xxhdpi/tfl2_logo.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-xxhdpi_tfl2_logo_dark.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-xxhdpi/tfl2_logo_dark.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-pngs-20:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-xxhdpi_icn_chevron_up.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-xxhdpi/icn_chevron_up.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-xxhdpi_icn_chevron_down.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-xxhdpi/icn_chevron_down.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/layout_tfe_tc_activity_main.xml.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/layout/tfe_tc_activity_main.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.tensorflow.lite.codelabs.textclassification.app-merged_res-24:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "org.tensorflow.lite.codelabs.textclassification.app-main-26:/drawable-hdpi/ic_launcher.png"
+    }
+]

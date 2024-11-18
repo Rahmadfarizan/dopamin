@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "108031220519",
+    "project_id": "text-classification-75fc2",
+    "storage_bucket": "text-classification-75fc2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108031220519:android:04347ec573401bdc412702",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.codelabs.textclassification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBibwhYEQfSUruzeqqtTUPA7C6076UoMfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

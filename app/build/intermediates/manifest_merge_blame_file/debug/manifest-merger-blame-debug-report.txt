@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.codelabs.textclassification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:4:3-65
+11-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:4:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ertig\.gradle\caches\transforms-3\e2a372470b47f2fa37aff2a4337fd0d4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:9:5-79
+12-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ertig\.gradle\caches\transforms-3\e2a372470b47f2fa37aff2a4337fd0d4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:9:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\ertig\.gradle\caches\transforms-3\11f40c9e64761ac083ed1d65aa3ec14a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="org.tensorflow.lite.codelabs.textclassification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\ertig\.gradle\caches\transforms-3\11f40c9e64761ac083ed1d65aa3ec14a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\ertig\.gradle\caches\transforms-3\11f40c9e64761ac083ed1d65aa3ec14a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="org.tensorflow.lite.codelabs.textclassification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\ertig\.gradle\caches\transforms-3\11f40c9e64761ac083ed1d65aa3ec14a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\ertig\.gradle\caches\transforms-3\11f40c9e64761ac083ed1d65aa3ec14a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22
+23    <application
+23-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:6:3-22:17
+24        android:allowBackup="true"
+24-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:7:7-33
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\ertig\.gradle\caches\transforms-3\11f40c9e64761ac083ed1d65aa3ec14a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:8:7-41
+28        android:label="@string/tfe_tc_app_name"
+28-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:9:7-46
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:10:7-52
+30        android:supportsRtl="true"
+30-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:11:7-33
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme.TextClassification" >
+32-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:12:7-57
+33        <activity
+33-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:13:5-21:16
+34            android:name="org.tensorflow.lite.codelabs.textclassification.MainActivity"
+34-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:13:15-43
+35            android:exported="true"
+35-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:14:15-38
+36            android:windowSoftInputMode="adjustResize" >
+36-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:15:15-57
+37            <intent-filter>
+37-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:16:7-20:23
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:17:9-60
+38-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:17:17-58
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:19:9-68
+40-->D:\Rizan\Bangkit\codelab-textclassification-android\finish\app\src\main\AndroidManifest.xml:19:19-66
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->[com.google.firebase:firebase-ml-modeldownloader:24.1.2] C:\Users\ertig\.gradle\caches\transforms-3\8cced81bbb09316b23e1293c24e14080\transformed\jetified-firebase-ml-modeldownloader-24.1.2\AndroidManifest.xml:25:9-31:19
+45            android:name="com.google.firebase.components.ComponentDiscoveryService"
+45-->[com.google.firebase:firebase-ml-modeldownloader:24.1.2] C:\Users\ertig\.gradle\caches\transforms-3\8cced81bbb09316b23e1293c24e14080\transformed\jetified-firebase-ml-modeldownloader-24.1.2\AndroidManifest.xml:26:13-84
+46            android:directBootAware="true"
+46-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+47            android:exported="false" >
+47-->[com.google.firebase:firebase-ml-modeldownloader:24.1.2] C:\Users\ertig\.gradle\caches\transforms-3\8cced81bbb09316b23e1293c24e14080\transformed\jetified-firebase-ml-modeldownloader-24.1.2\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[com.google.firebase:firebase-ml-modeldownloader:24.1.2] C:\Users\ertig\.gradle\caches\transforms-3\8cced81bbb09316b23e1293c24e14080\transformed\jetified-firebase-ml-modeldownloader-24.1.2\AndroidManifest.xml:28:13-30:85
+49                android:name="com.google.firebase.components:com.google.firebase.ml.modeldownloader.FirebaseModelDownloaderRegistrar"
+49-->[com.google.firebase:firebase-ml-modeldownloader:24.1.2] C:\Users\ertig\.gradle\caches\transforms-3\8cced81bbb09316b23e1293c24e14080\transformed\jetified-firebase-ml-modeldownloader-24.1.2\AndroidManifest.xml:29:17-134
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-ml-modeldownloader:24.1.2] C:\Users\ertig\.gradle\caches\transforms-3\8cced81bbb09316b23e1293c24e14080\transformed\jetified-firebase-ml-modeldownloader-24.1.2\AndroidManifest.xml:30:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ertig\.gradle\caches\transforms-3\d4e7804ffd2e780439d8a6f3870ad53b\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+52                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+52-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ertig\.gradle\caches\transforms-3\d4e7804ffd2e780439d8a6f3870ad53b\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ertig\.gradle\caches\transforms-3\d4e7804ffd2e780439d8a6f3870ad53b\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ertig\.gradle\caches\transforms-3\e2a372470b47f2fa37aff2a4337fd0d4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+55                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+55-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ertig\.gradle\caches\transforms-3\e2a372470b47f2fa37aff2a4337fd0d4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ertig\.gradle\caches\transforms-3\e2a372470b47f2fa37aff2a4337fd0d4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+57        </service>
+58
+59        <provider
+59-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+61            android:authorities="org.tensorflow.lite.codelabs.textclassification.firebaseinitprovider"
+61-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+63            android:exported="false"
+63-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+64            android:initOrder="100" />
+64-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ertig\.gradle\caches\transforms-3\8fb27456393fff829b3ff54649f70981\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ertig\.gradle\caches\transforms-3\85d685670fe09cb78079bc58562f47a8\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ertig\.gradle\caches\transforms-3\85d685670fe09cb78079bc58562f47a8\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ertig\.gradle\caches\transforms-3\85d685670fe09cb78079bc58562f47a8\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+72            android:authorities="org.tensorflow.lite.codelabs.textclassification.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ertig\.gradle\caches\transforms-3\f74f40d69c0200eb59419bb3fccb0fa6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ertig\.gradle\caches\transforms-3\d97391d7bf92816da53203c44b000b5b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ertig\.gradle\caches\transforms-3\d97391d7bf92816da53203c44b000b5b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ertig\.gradle\caches\transforms-3\d97391d7bf92816da53203c44b000b5b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+80        </provider>
+81
+82        <service
+82-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\7a3202f8c5dc96dbc826bd76158f9587\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+83            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+83-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\7a3202f8c5dc96dbc826bd76158f9587\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+84            android:exported="false" >
+84-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\7a3202f8c5dc96dbc826bd76158f9587\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+85            <meta-data
+85-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\7a3202f8c5dc96dbc826bd76158f9587\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+86                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+86-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\7a3202f8c5dc96dbc826bd76158f9587\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+87                android:value="cct" />
+87-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\7a3202f8c5dc96dbc826bd76158f9587\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+88        </service>
+89        <service
+89-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+90            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+90-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+91            android:exported="false"
+91-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+92            android:permission="android.permission.BIND_JOB_SERVICE" >
+92-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+93        </service>
+94
+95        <receiver
+95-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+96            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+96-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+97            android:exported="false" />
+97-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ertig\.gradle\caches\transforms-3\37d08f137e35f58bc27b027d68beaee5\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+98    </application>
+99
+100</manifest>

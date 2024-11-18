@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tfe_color_accent">#425066</color>
+    <color name="tfe_color_primary">#ffa800</color>
+    <color name="tfe_color_primary_dark">#ff6f00</color>
+    <dimen name="tfe_tc_activity_margin">16dp</dimen>
+    <string name="gcm_defaultSenderId" translatable="false">108031220519</string>
+    <string name="google_api_key" translatable="false">AIzaSyBibwhYEQfSUruzeqqtTUPA7C6076UoMfk</string>
+    <string name="google_app_id" translatable="false">1:108031220519:android:04347ec573401bdc412702</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBibwhYEQfSUruzeqqtTUPA7C6076UoMfk</string>
+    <string name="google_storage_bucket" translatable="false">text-classification-75fc2.firebasestorage.app</string>
+    <string name="project_id" translatable="false">text-classification-75fc2</string>
+    <string name="tfe_tc_app_name" translatable="false">TFL Text Classification</string>
+    <string name="tfe_tc_button_ok" translatable="false">Predict</string>
+    <string name="tfe_tc_edit_text_hint" translatable="false">Enter your movie review.</string>
+    <style name="AppTheme.TextClassification" parent="Theme.AppCompat.Light.DarkActionBar">
+    
+    <item name="colorPrimary">@color/tfe_color_primary</item>
+    <item name="colorPrimaryDark">@color/tfe_color_primary_dark</item>
+    <item name="colorAccent">@color/tfe_color_accent</item>
+  </style>
+</resources>
